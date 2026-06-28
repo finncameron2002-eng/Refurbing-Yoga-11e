@@ -2,7 +2,7 @@
 Recently recieved an untested lenovo laptop and I am going to Refurbish it.
 
 ## Goal
-I intended to make this Lenovo Thinkpad yoga 11e a daily driver for school and other projects.
+I intended to make this Lenovo Thinkpad yoga 11e my daily driver for school and other projects.
 
 Linux mint will be installed on this device and stress tested for performance 
 
@@ -11,7 +11,7 @@ Laptop will be cleaned and if needed parts will be upgraded / restored to it's f
 ## Parts & Cost
 - Laptop — Free
 - Lenovo 65 watt Charger  — 16 aud
-- Total cost: $ 16.00 aud
+- Total cost: $16.00 aud
 
 ## Time
 - Laptop Received 26/6/26.
