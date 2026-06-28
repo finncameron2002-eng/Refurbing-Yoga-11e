@@ -44,11 +44,11 @@ Notes: After inspecting voltage requirements I have order a relvant charger for 
 
 ## Steps I followed (high-level)
 1. Initial inspection & photos
-2. Power-on diagnostics
-3. Replace HDD with SSD, reseat RAM
-4. Cleaned fan, replaced thermal paste
+2. Power-on diagnostics < - waiting 
+3. test SSD, reseat RAM / upgrade
+4. Cleaned fan, replaced thermal paste, stress test
 5. Installed OS and drivers
-6. Final tests (battery, memtest, stress test)
+6. Final tests (battery, memtest, final stress test)
 
 ## Commands & scripts
 Include command snippets you ran, e.g.:
