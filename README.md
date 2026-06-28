@@ -14,7 +14,8 @@ Laptop Will be cleaned and if needed parts will be upgraded / restored to it's f
 Total cost: $ 16.00 aud
 
 ## Time
-Laptop Recieved 26/6/26.
+Laptop Received 26/6/26.
+Charger ordered & Breakdown performed 26/6/26.
 
 ## Before / After
 
