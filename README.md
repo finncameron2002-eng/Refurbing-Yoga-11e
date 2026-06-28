@@ -13,6 +13,8 @@ Total cost: $ 16.00 aud
 Laptop Recieved 26/6/26.
 
 ## Before / After
+<img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/6a764991ef322633a15d57ea186060add5061246/yoga%2011e%20ssd%20before.jpg" width="1200"> 
+![image alt](https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/6a764991ef322633a15d57ea186060add5061246/yoga%2011e%20ssd%20before.jpg)
 - images/before.jpg
 - images/after.jpg
 (Include captions and short notes about what's fixed)
