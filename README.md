@@ -1,4 +1,4 @@
-# Refurbshing Lenovo yoga 11e
+# Refurbishing Lenovo yoga 11e
 Recently recieved an untested lenovo laptop and I am going to test the condition and make necessary changes for it's operation.
 
 ## Goal
@@ -13,11 +13,29 @@ Total cost: $ 16.00 aud
 Laptop Recieved 26/6/26.
 
 ## Before / After
+
+#### Front view and side.
+
+<img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/de80b3540f9817b9e445caa78177bd631df2b6b9/yoga%2011e%20front%20before.jpg" width="1200">
+
+Photo of first inspection, screen and keyboard are dirty and need a cleaning. Device has not been powered on yet so unable to test keys and screen but from a first glance everything looks fine, But I now have a checklist of components to test. 
+
+###### To test.
+
+keyboard, touchpad, speakers, usb ports, microphone, screen, display lights, volume button, hdmi port and ethernet port.  
+
+#### Analysing components 
+<img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/de80b3540f9817b9e445caa78177bd631df2b6b9/yoga%2011e%20back%20dismantled%20before.jpg" width="1200">
+
+Photo of first inspection with back cover taken off. First glance no obivous fixes needed below are up close photos of components like ram, battery and voltage requirements.
+
 <img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/6a764991ef322633a15d57ea186060add5061246/yoga%2011e%20ssd%20before.jpg" width="1200"> 
-![image alt](https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/6a764991ef322633a15d57ea186060add5061246/yoga%2011e%20ssd%20before.jpg)
-- images/before.jpg
-- images/after.jpg
-(Include captions and short notes about what's fixed)
+<img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/de80b3540f9817b9e445caa78177bd631df2b6b9/yoga%2011e%20battery%20before.jpg" width="1200"> 
+<img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/de80b3540f9817b9e445caa78177bd631df2b6b9/yoga%2011e%20ram%20and%20cmos%20battery%20before.jpg" width="1200">
+<img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/de80b3540f9817b9e445caa78177bd631df2b6b9/yoga%2011e%20wifi%20card%20before.jpg" width="1200">
+<img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/de80b3540f9817b9e445caa78177bd631df2b6b9/yoga%2011e%20power%20input.jpg" width="1200">
+
+Notes: After inspecting voltage requirements I have order a relvant charger for this laptop, it's manufacture charger is a recommended 20V == 2.25A the equivalent of 45 watts. I have ordered a Lenovo 65 watt 20V 3.25A charger for additional overhead so the charger won't get as warm ensuring longer life and for future projects.
 
 ## Steps I followed (high-level)
 1. Initial inspection & photos
