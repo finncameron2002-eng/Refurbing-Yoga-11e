@@ -1,16 +1,16 @@
 # Refurbshing Lenovo yoga 11e
-Recently recieved an untested lenovo laptop and i am going to test it condition and make nessacry changes for it to run at todays standard.
+Recently recieved an untested lenovo laptop and I am going to test the condition and make necessary changes for it's operation.
 
 ## Goal
-I intended to make this Lenovo Thinkpad for a daily driver for school and other projects.
+I intended to make this Lenovo Thinkpad yoga 11e a daily driver for school and other projects.
 
 ## Parts & Cost
 - Laptop — Free
-- Part B — price
-Total cost: $__
+- Lenovo 65 watt Charger  — 16 aud
+Total cost: $ 16.00 aud
 
 ## Time
-Recieved 26/6/26.
+Laptop Recieved 26/6/26.
 
 ## Before / After
 - images/before.jpg
