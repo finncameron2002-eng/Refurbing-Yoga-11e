@@ -6,16 +6,16 @@ I intended to make this Lenovo Thinkpad yoga 11e a daily driver for school and o
 
 Linux mint will be installed on this device and stress tested for performance 
 
-Laptop Will be cleaned and if needed parts will be upgraded / restored to it's full potential
+Laptop will be cleaned and if needed parts will be upgraded / restored to it's full potential
 
 ## Parts & Cost
 - Laptop — Free
 - Lenovo 65 watt Charger  — 16 aud
-Total cost: $ 16.00 aud
+- Total cost: $ 16.00 aud
 
 ## Time
-Laptop Received 26/6/26.
-Charger ordered & Breakdown performed 26/6/26.
+- Laptop Received 26/6/26.
+- Charger ordered & Breakdown performed 26/6/26.
 
 ## Before / After
 
@@ -25,7 +25,7 @@ Charger ordered & Breakdown performed 26/6/26.
 
 Photo of first inspection, screen and keyboard are dirty and need a cleaning. Device has not been powered on yet so unable to test keys and screen but from a first glance everything looks fine, But I now have a checklist of components to test. 
 
-###### To test.
+##### To test.
 
 keyboard, touchpad, speakers, usb ports, microphone, screen, display lights, volume button, hdmi port and ethernet port.  
 
