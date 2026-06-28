@@ -19,9 +19,17 @@ Laptop will be cleaned and if needed parts will be upgraded / restored to it's f
 
 ## Before / After
 
-#### Front view and side.
+#### Front view.
 
 <img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/425163039e0cb88c6c4b1899a39115403d2916ef/images/yoga%2011e%20front%20before.jpg" width="1200">
+
+#### Left view 
+
+<img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/cb6470e838ad56e285060bb635e78bec333f0e70/images/yoga%2011e%20ports%20left.jpg" width="1200">
+
+### Right view 
+
+<img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/cb6470e838ad56e285060bb635e78bec333f0e70/images/yoga%2011e%20ports%20right.jpg" width="1200">
 
 Photo of first inspection, screen and keyboard are dirty and need a cleaning. Device has not been powered on yet so unable to test keys and screen but from a first glance everything looks fine, But I now have a checklist of components to test. 
 
