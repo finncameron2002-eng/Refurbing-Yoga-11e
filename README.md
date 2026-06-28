@@ -1,8 +1,12 @@
 # Refurbishing Lenovo yoga 11e
-Recently recieved an untested lenovo laptop and I am going to test the condition and make necessary changes for it's operation.
+Recently recieved an untested lenovo laptop and I am going to Refurbish it.
 
 ## Goal
 I intended to make this Lenovo Thinkpad yoga 11e a daily driver for school and other projects.
+
+Linux mint will be installed on this device and stress tested for performance 
+
+Laptop Will be cleaned and if needed parts will be upgraded / restored to it's full potential
 
 ## Parts & Cost
 - Laptop — Free
