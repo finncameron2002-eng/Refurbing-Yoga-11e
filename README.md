@@ -1,4 +1,4 @@
-# Refurbishing Lenovo yoga 11e
+# Refurbishing Lenovo yoga 11e gen 1
 Recently recieved an untested lenovo laptop and I am going to Refurbish it.
 
 ## Goal
