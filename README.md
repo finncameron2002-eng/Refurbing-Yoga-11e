@@ -52,19 +52,36 @@ Notes: After inspecting voltage requirements I have order a relvant charger for 
 
 ## Steps I followed (high-level)
 1. Initial inspection & photos
-2. Power-on diagnostics < - waiting 
+Laptop looks fine with no obivous problems. first inspection there are no broken ports or damaged parts, case has scuff marks here and there. Back cover was removed and components look fine with no apparent damge
+2. Power-on diagnostics
+Powered on Laptop with charger, fn key lights flash on and off, then thinkpad logo follows. Screen back light turns on then lenovo symbols shows. 2 beeps are heard and screen prompts 0261: real time clock error.
+<img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/c334cc77296264a66c5ac8a766ab2a2039fa21bf/images/yoga%2011e%20start%20up%20error.jpg" width="1200">
+ Diagnostics are cmos cr2025 battery is flat and needs replacing, continuing into the bios to indentify parts which are
+- BIOS version 1.10.
+- CPU Celeron N2930.
+- 4096mb Memory.
+<img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/c334cc77296264a66c5ac8a766ab2a2039fa21bf/images/yoga%2011e%20bios%20before.jpg">
+save & quit.   laptop boots into windows then immedately crashes and prompts windows automatic repair
 3. test SSD, reseat RAM / upgrade
-4. Cleaned fan, replaced thermal paste, stress test
-5. Installed OS and drivers
-6. Final tests (battery, memtest, final stress test)
+- Removed previous samsung 128GB sata SSD and installed the patriot p210 256GB sata SSD.
+- Memory only has 1 so-dimm slot so 8gb 1600mhz ram was installed.
+- New Cmos battery installed to fix the 0261: real time clock error   
+4. Installed OS and drivers
+Installed Linux Mint Xfce 4.18 because it is a light weight OS for its aged parts. 
+5. Final tests (battery, memtest, final stress test)
+Peformed memtest, battery test and stress test. Results are below
 
 ## Commands & scripts
 Include command snippets you ran, e.g.:
+battery test command: `upower -i /org/freedesktop/UPower/devices/battery_BAT1`
 - Disk cloning: `sudo dd if=/dev/sda of=/dev/sdb bs=4M status=progress`
 - Linux install steps or server start commands
 
 ## Tests & Results
-- Battery: 3.5 hours
+- Battery:
+  Energy-full 27.13Wh.    Energy-full-design 34.04Wh.    Capacity 79.7004%
+  battery is at a worn to good condition but is more than usable. at idel battery lasts 6.7 hours
+  <img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/c334cc77296264a66c5ac8a766ab2a2039fa21bf/images/yoga%2011e%20battery%20test.jpg" width="1200">
 - CPU temps under load: max 75°C
 - Memtest: no errors (link to memtest log in notes/)
 
