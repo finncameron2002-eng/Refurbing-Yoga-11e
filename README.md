@@ -6,8 +6,13 @@ I intended to make this Lenovo Thinkpad yoga 11e my daily driver for school and 
 
 Linux mint will be installed on this device and stress tested for performance 
 
-Laptop will be cleaned and if needed parts will be upgraded / restored to it's full potential
+Laptop will be cleaned and if it needs parts, then will be upgraded / restored to it's full potential
 
+## SPECS
+- Intel n2930 celeron 1.82ghz
+- 4G 1333mhz ddr3 ram
+- 128G Samsung ssd
+  
 ## Parts & Cost
 - Laptop — Free
 - Lenovo 65 watt Charger  — 16 aud
