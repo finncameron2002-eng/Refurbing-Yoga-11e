@@ -45,7 +45,7 @@ Laptop will be cleaned and be given applicable upgrades / working parts
 
 #### Front view.
 
-<img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/425163039e0cb88c6c4b1899a39115403d2916ef/images/yoga%2011e%20front%20before.jpg" width="1200">
+<img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/425163039e0cb88c6c4b1899a39115403d2916ef/images/yoga%2011e%20front%20before.jpg" width="1000">
 
 #### Left view 
 
