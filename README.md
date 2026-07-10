@@ -1,5 +1,7 @@
 # Refurbishing Lenovo Yoga 11e Gen 1
-Recently recieved an untested lenovo laptop and I'm going to Refurbish it.
+A complete refurbishment of a Lenovo ThinkPad Yoga 11e Gen 1 that was received untested.
+
+This project documents inspection, diagnosis, hardware upgrades, Linux installation, stress testing, battery testing and final performance evaluation.
 
 ## Goal
 I intended to make this Lenovo Thinkpad yoga 11e Gen1 my daily driver for school and other projects.
@@ -9,15 +11,27 @@ Linux mint will be installed on this device and stress tested for performance
 Laptop will be cleaned and be given applicable upgrades / working parts
 
 ## SPECS
-- Intel N2930 celeron 1.82ghz
-- 4G 1333mhz ddr3 ram
-- 128G Samsung ssd
-- 1368 x 768 screen
+| Component | Specification                            |
+| --------- | ---------------------------------------- |
+| CPU       | Intel Celeron N2930                      |
+| RAM       | 4 GB DDR3L (upgraded to 8 GB)            |
+| Storage   | 128 GB Samsung SSD → Patriot P210 256 GB |
+| Display   | 1366×768 Touchscreen                     |
+
+## Hardware upgrades
+
+- Replaced 128GB Samsung SSD with Patriot P210 256GB SSD
+- Upgraded RAM from 4GB DDR3L to 8GB DDR3L
+- Replaced CMOS battery
+- Installed genuine Lenovo 65W charger
   
 ## Parts & Cost
-- Laptop — Free
-- Lenovo 65 watt Charger  — 16 aud
-- Total cost: $16.00 aud
+| Item               |        Cost |
+| ------------------ | ----------: |
+| Laptop             |        Free |
+| Lenovo 65W charger |     $16 AUD |
+| **Total**          | **$16 AUD** |
+
 
 ## Time
 - 26/6/26 Laptop Received.
@@ -58,21 +72,20 @@ Photo of first inspection with back cover taken off. First glance no obivous fix
 <img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/425163039e0cb88c6c4b1899a39115403d2916ef/images/yoga%2011e%20ram%20and%20cmos%20battery%20before.jpg" width="1200">
 <img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/425163039e0cb88c6c4b1899a39115403d2916ef/images/yoga%2011e%20power%20input.jpg" width="1200">
 
-Notes: After inspecting voltage requirements I have order a relvant charger for this laptop, it's manufacture charger is a recommended 20V == 2.25A the equivalent of 45 watts. I have ordered a Lenovo 65 watt 20V 3.25A charger for additional overhead so the charger won't get as warm ensuring longer life and for future projects.
-
+Notes: After inspecting voltage requirements I have order a relvant charger for this laptop, it's manufacture charger is a recommended 20V == 2.25A the equivalent of 45 watts. I deliberately bought a 65W charger because it provides additional headroom while still supplying the required 20V.
 ## Steps I followed (high-level)
 1. Initial inspection & photos
-Laptop looks fine with no obivous problems. first inspection there are no broken ports or damaged parts, case has scuff marks here and there. Back cover was removed and components look fine with no apparent damge
+Laptop looks fine with no obvious problems. first inspection there are no broken ports or damaged parts, case has scuff marks here and there. Back cover was removed and components look fine with no apparent damge
 2. Power-on diagnostics
-Powered on Laptop with charger, fn key lights flash on and off, then thinkpad logo follows. Screen back light turns on then lenovo symbols shows. 2 beeps are heard
+Powered on Laptop with charger, fn key lights flash on and off, then thinkpad logo follows. Screen back light turns on then Lenovo symbols shows. 2 beeps are heard
 - screen prompts 0261: real time clock error displayed.
 <img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/c334cc77296264a66c5ac8a766ab2a2039fa21bf/images/yoga%2011e%20start%20up%20error.jpg" width="1200">
- Diagnostics are cmos cr2025 battery is flat and needs replacing, continuing into the bios to indentify parts which are
+ Diagnostics are cmos cr2025 battery is flat and needs replacing, continuing into the bios to identify parts that are:
 - BIOS version 1.10.
 - CPU Celeron N2930.
 - 4096mb Memory.
 <img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/c334cc77296264a66c5ac8a766ab2a2039fa21bf/images/yoga%2011e%20bios%20before.jpg">
-save & quit.   laptop boots into windows then immedately crashes and prompts windows automatic repair
+save & quit.   laptop boots into windows then immediately crashes and prompts windows automatic repair
 3. Test SSD, reseat RAM / upgrade
 - Removed previous Samsung 128GB sata SSD and installed the Patriot p210 256GB sata SSD.
 - Memory only has 1 so-dimm slot, 8gb 1600mhz ram was installed.
@@ -81,7 +94,7 @@ save & quit.   laptop boots into windows then immedately crashes and prompts win
 Installed Linux Mint Xfce 4.18 because it is a light weight OS for the aged parts.
 After testing and stress testing Mint is too heavy for the laptop and have changed over to a lighter OS, antiX
 5. Final tests (battery, memtest, final stress test)
-Peformed memtest, battery test and stress test. Results are below
+Performed memtest, battery test and stress test. Results are below
 
 ## Commands & scripts
 ###Battery Life Testing
@@ -99,11 +112,13 @@ Energy-full 27.13Wh.    Energy-full-design 34.04Wh.    Capacity 79.7004%
 Battery is at a worn to good condition but is more than usable. Estimates are the battery will last 6.7 hours.
 <img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/c334cc77296264a66c5ac8a766ab2a2039fa21bf/images/yoga%2011e%20battery%20test.jpg" width="1200">
 CPU temps under load:
-- idle 36-38°C
-- 1 min stress test 40-42°C.
-- 5 min stress test 57-58°C.
-- 10 min stress test 58-60°C.
-After 10 minutes temperatures no longer increased.
+| Test       | Temperature |
+| ---------- | ----------: |
+| Idle       |     36–38°C |
+| 1 minute   |     40–42°C |
+| 5 minutes  |     57–58°C |
+| 10 minutes |     58–60°C |
+
 
 ## What I learned
 - I learnt how to replace the cmos, ram and storage of a yoga 11e gen 1.
@@ -119,4 +134,40 @@ After 10 minutes temperatures no longer increased.
 - Better formatting of the github page.
 
 ## Conclusion
-This laptop is functional touch screen included, but does not meet to par for todays standards. It could barely run linux mint OS with a Ram and SSD uprade, after installing antiX it is barely fuctional. Lagging to type in the terminal or having more than 3 applications open. It can run vscode with some delay and youtube as well but at 85% cpu usage at 720p. At best this laptop will be used to improve my skills on Linux and a note taker, that is all. 
+
+The laptop is now fully working after replacing the RAM, SSD and CMOS battery. Although it runs much better with antiX than Linux Mint, the Celeron N2930 is still a slow processor by today's standards. It is good for learning Linux, taking notes, basic programming and light web browsing, but it struggles with heavier tasks and running several programs at once.
+
+## Final configuration
+
+CPU
+Intel Celeron N2930
+
+RAM
+8GB DDR3L
+
+Storage
+256GB Patriot P210 SSD
+
+Operating System
+antiX Linux
+
+Battery health
+79.7%
+
+Touchscreen
+Working
+
+Wi-Fi
+Working
+
+Audio
+Working
+
+USB
+Working
+
+HDMI
+Working
+
+Ethernet
+Working
