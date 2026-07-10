@@ -86,13 +86,16 @@ Powered on Laptop with charger, fn key lights flash on and off, then thinkpad lo
 - 4096mb Memory.
 <img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/c334cc77296264a66c5ac8a766ab2a2039fa21bf/images/yoga%2011e%20bios%20before.jpg">
 save & quit.   laptop boots into windows then immediately crashes and prompts windows automatic repair
+
 - 3. Test SSD, reseat RAM / upgrade
 - Removed previous Samsung 128GB sata SSD and installed the Patriot p210 256GB sata SSD.
 - Memory only has 1 so-dimm slot, 8gb 1600mhz ram was installed.
 - New CMOS battery installed to fix the 0261: real time clock error   
+
 - 4. Installed OS and drivers
 Installed Linux Mint Xfce 4.18 because it is a light weight OS for the aged parts.
 After testing and stress testing Mint is too heavy for the laptop and have changed over to a lighter OS, antiX
+
 - 5. Final tests (battery, memtest, final stress test)
 Performed memtest, battery test and stress test. Results are below
 
