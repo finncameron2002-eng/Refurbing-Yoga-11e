@@ -89,7 +89,7 @@ save & quit.   laptop boots into windows then immediately crashes and prompts wi
 3. Test SSD, reseat RAM / upgrade
 - Removed previous Samsung 128GB sata SSD and installed the Patriot p210 256GB sata SSD.
 - Memory only has 1 so-dimm slot, 8gb 1600mhz ram was installed.
-- New Cmos battery installed to fix the 0261: real time clock error   
+- New CMOS battery installed to fix the 0261: real time clock error   
 4. Installed OS and drivers
 Installed Linux Mint Xfce 4.18 because it is a light weight OS for the aged parts.
 After testing and stress testing Mint is too heavy for the laptop and have changed over to a lighter OS, antiX
@@ -121,16 +121,16 @@ CPU temps under load:
 
 
 ## What I learned
-- I learnt how to replace the cmos, ram and storage of a yoga 11e gen 1.
+- I learnt how to replace the CMOS, RAM and storage of a yoga 11e gen 1.
 - How to perform a battery life test.
 - How to stress test and monitor the cpu.
 - How to replace the cmos battery replacement.
-- Using antiX OS for the first test.
-- Falkon browser is a good lightweight alternative to firerfox.
+- Using antiX OS for the first time as a substitute for Mint OS.
+- Falkon browser is a good lightweight alternative to firefox.
   
 ## Future improvements
 - Be prepared with a charger as it delayed my plans until arrival.
-- Document more thorougly, notes and photos.
+- Document more thoroughly, notes and photos.
 - Better formatting of the github page.
 
 ## Conclusion
