@@ -74,9 +74,9 @@ Photo of first inspection with back cover taken off. First glance no obivous fix
 
 Notes: After inspecting voltage requirements I have order a relvant charger for this laptop, it's manufacture charger is a recommended 20V == 2.25A the equivalent of 45 watts. I deliberately bought a 65W charger because it provides additional headroom while still supplying the required 20V.
 ## Steps I followed (high-level)
-1. Initial inspection & photos
+- 1. Initial inspection & photos
 Laptop looks fine with no obvious problems. first inspection there are no broken ports or damaged parts, case has scuff marks here and there. Back cover was removed and components look fine with no apparent damge
-2. Power-on diagnostics
+- 2. Power-on diagnostics
 Powered on Laptop with charger, fn key lights flash on and off, then thinkpad logo follows. Screen back light turns on then Lenovo symbols shows. 2 beeps are heard
 - screen prompts 0261: real time clock error displayed.
 <img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/c334cc77296264a66c5ac8a766ab2a2039fa21bf/images/yoga%2011e%20start%20up%20error.jpg" width="1200">
@@ -86,14 +86,14 @@ Powered on Laptop with charger, fn key lights flash on and off, then thinkpad lo
 - 4096mb Memory.
 <img src="https://github.com/finncameron2002-eng/Refurbing-Yoga-11e/blob/c334cc77296264a66c5ac8a766ab2a2039fa21bf/images/yoga%2011e%20bios%20before.jpg">
 save & quit.   laptop boots into windows then immediately crashes and prompts windows automatic repair
-3. Test SSD, reseat RAM / upgrade
+- 3. Test SSD, reseat RAM / upgrade
 - Removed previous Samsung 128GB sata SSD and installed the Patriot p210 256GB sata SSD.
 - Memory only has 1 so-dimm slot, 8gb 1600mhz ram was installed.
 - New CMOS battery installed to fix the 0261: real time clock error   
-4. Installed OS and drivers
+- 4. Installed OS and drivers
 Installed Linux Mint Xfce 4.18 because it is a light weight OS for the aged parts.
 After testing and stress testing Mint is too heavy for the laptop and have changed over to a lighter OS, antiX
-5. Final tests (battery, memtest, final stress test)
+- 5. Final tests (battery, memtest, final stress test)
 Performed memtest, battery test and stress test. Results are below
 
 ## Commands & scripts
